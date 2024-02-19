@@ -1,0 +1,78 @@
+
+*{
+    text-align: left;
+    width: 100%;
+}
+.parent{
+background: blanchedalmond;
+    height: 1500px;
+    width: 100%;
+    position: relative;
+    padding: 5px;
+}
+.container{
+    background-color: white;
+    width:90% ;
+    height: 1400px;
+    top: 20px;
+    position: relative;
+    border-radius: 23px;
+    margin: auto;
+    
+    
+    
+}
+#body{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    margin-top: 20px;
+}
+#omlette{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 25px;
+    
+}
+
+h1{
+    background: white;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+p{
+    background: white;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+#second{
+    color: orchid;
+    background-color: inherit;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.preparation{
+    height: auto;
+    width: 90%;
+    margin-left: 10px;
+    background-color:lavenderblush;
+    border-radius: 25px; 
+}
+h2{
+    text-transform: uppercase;
+    background-color: inherit;
+    color: chocolate;
+    margin-left: 10px;
+}
+#instructions{
+    width: 100%;
+    height: auto;
+    margin-left: -25px;
+}
+li, ul{
+    text-transform: capitalize;
+    line-height: 25px;
+}
