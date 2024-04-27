@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC/DEPT</title>
+
+</head>
+<style>
+  *{
+    box-sizing: border-box;
+    border-radius: 24px;
+    
+  }
+  body{
+    background-color: lightgray;
+  
+
+border-radius: 25px;  }
+  /* the image used */
+  .image{
+    background-image: url(webpage.jpeg.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    
+  }
+  .container{
+    margin: 20px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  nav{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Franklin Gothic medium;
+
+  }
+  
+  a{
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    text-decoration: none;
+  }
+  a:hover{
+    transition: 0.4s;
+    color: black ;
+    background-color: chartreuse;
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  .logo{
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+button{
+  border-radius: 25px;
+  width: 25vmin;
+  height: 4vmin;
+  border: outset;
+  border-color: black;
+}
+.pic{
+  display: flex;
+}
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+p{
+  font-size: 12px;
+  font-family: sans-serif;
+}
+hr{
+  width: 90%;
+
+}
+/* applying the scrool effect */
+.features{
+  width: 80%;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin: auto;
+  color: black;
+  background-color: gray;
+
+}
+
+.scroll {
+  flex: 30%;
+  padding: 10px;
+
+}
+h2{
+  text-align: center;
+margin: 10px;
+padding: 10px;
+border: double;
+border-radius: 25px; 
+border-color: black; 
+}
+.first{
+  width: inherit;
+  height: 200px;
+  background-color: inherit;
+  float: left;
+}
+.text1{
+  background-color: inherit;
+  width: 80%;
+  height: 200px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: italic;
+  float: right;
+  margin-top: 0px;
+}
+.second{
+background-color: green;
+float: left;
+width: inherit;
+height: 200px;
+margin-top: 20px;
+}
+img{
+  width: 100%;
+  height: 400px;
+}
+
+</style>
+
+
+
+<body>
+<div class="image">
+  <div class="logo">BASIC/DEPT</div>
+
+    <div class="container">
+        <div class="topnav">
+            <nav>
+                <a href="work">WORK</a>
+                <a href="about">ABOUT</a>
+                <a href="news">NEWS</a>
+                <a href="trending">TRENDING</a>
+                <a href="pledge">PLEDGE</a>
+                <a href="career">CAREER</a>
+                <a href="contact">CONTACT</a>       
+            </nav>
+        </div>
+    </div>
+
+</div>
+  <div class="basic">
+    <p>
+      <b>BASIC/DEPT</b> is a global leading and digital design
+     agency building products, serices, and eCommerce experiences
+      that turn cultural values into compnay value.
+    </p>
+    <button>
+      <a href="/.seework" style="cursor: pointer; padding: 1vmin; color: black; font-weight: bold; text-decoration: none;">See The Work</a>
+    </button>
+ </div>
+
+
+ <div class="pic">
+
+      <div class="column">
+        <img src="captain-america.png" alt="captain-america ">
+        <p><b>PATAGONIA</b></p>
+        <p style="text-transform: uppercase;"> our embeded partnership with google is as deep as it gets. 
+            we're the lead creative agency for google store and provide strategy,
+            deisgn, and prototyping other dividions. learn moreabout our partnerships.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="pexels-masood-aslami-19416910 (1).jpg" alt="couple in snow">
+        <p><b>WILSON</b></p>
+        <P>A CENTRURY-OLD SPORTS BRAND FINDING ITS PLACE IN CULTUREA</P>
+      </div>
+
+      <div class="column">
+        <img src="pexels-yuliia-tretynychenko-14198675 (1).jpg" alt="girl holding rose">
+        <p><b>GOOGLE STORE</b></p>
+        <P>AN eCOMMERCE EXPERIENCE HELPING GOOGLE BRING ITS HARDWARE TO PEOPLE ACROSS THE GLOBE</P>
+      </div>
+    </div>
+    <hr>
+      
+    <h4>FEATURED ENGAGEMENTS</h4>
+     <div class="features">
+        <div class="scroll">          
+          <h4><b>GOOGLE</b></h4>
+          <P><B>Google</Bz><br><br>
+            our embeded partnership with google is as deep as it gets. 
+            we're the lead creative agency for google store and provide strategy,
+           design and prototypingto other divisions. learn more about our partnership<a href="/link">Here</a>
+          </P>
+        </div>
+
+        <div class="scroll">
+          <h4 class="KFC">KFC</h4>
+          <P><b>KFC</b><br><br>
+            An award winning global, digital transformation angagement spanning eCommerce, mobile app, and new drive through experiences. Bringing KFC's brand story to life while making it easier for customers to buy and sell chicken. learn more about our partnership <a href="/link">Here</a>
+          </P>
+        </div>
+        <div class="scroll">
+            <h4 class="wilson">WILSON</h4>
+            <p><b>wilson</b><br><br>
+              A remaining of wilsons brand visual identity and brand campaign, 
+              to support a new product drop and the launch of the first brick 
+              and mortar retail location in the brands 108-year history. 
+              Read our full case study <a href="/link">Here</a>
+            </p>
+        </div>
+        <div class="scroll">
+            <h4 class="AT">AT&T</h4>
+            <P><b>AT&T</b><br><br>
+              Redesigning the digital flagship for the largest telecommunications compnay
+               in the world, creating frictionless paths to puchase for a wide range of consumers 
+               across a vast portfolio of products and services. to read more out this service, 
+               click <a href="/link">Here</a>
+            </P>
+        </div>
+        <div class="scroll">
+          <h4 class="PATAGONIA"></h4>
+          <p><b>Patagonia</b><br><br>
+            Ongoing partnershio providing strategy, branding, experience design, 
+            and development focused on bringing thier mission and other offerings
+             to consumers through brand-led programs and platforms. 
+             read full case study click <a href="/link">Here</a>
+          </p>
+        </div><br><br>
+      </div>
+      <hr>
+
+  <div style="middle">
+
+    <div class="basic"> 
+      <h2>BASIC/DEPT HELPS BRAND CONNECT WITH CULTURE</h2>
+    </div>
+    <div class="picture">
+      <img src="free-photo-of-a-pool-surrounded-by-palm-trees-and-a-large-house.jpg" alt="swimming pool" style="width:100%;">
+   </div>
+     </div>
+
+     <h1 class="l"><b>FEATURED NEWS</b></h1><br>
+     <hr><br>
+     <div> <a href="first">
+<div class="first">
+      <img src="pexels-photo-13747644.jpg" alt=" in the woods" style="height: 200px; width: 250px; background-size: cover;">
+</div>
+          <p class="text1">
+            <b>basic earns 12 nominations in 26th annual webby awards</b>
+          </p><br>
+        </a>
+        </div>
+
+<div class="second">
+      <img src="pexels-photo-14371564.jpg" alt="bird" style="width: 250px; height: 200px;">
+</div>
+            <P class="text1">
+              <b>enviromental impact at the inaugural anthem awards</b>
+            </P> 
+ <div class="second">
+        <img src="pexels-photo-food.jpg" alt="food" style="width: 250px; height: 200px;">
+</div>  
+          <p class="text1">
+            <b>cowboy and basic recognized acrross 8 mainstream categories</b>
+          </p> 
+<div class="second">
+        <img src="pexels-valeria-boltneva-19102728 (1).jpg" alt="christmass basket" style="width: 250px; height: 200px;">
+  </div> 
+        <p class="text1">
+          <b> basic and webex champion "hybrid collaborations" as next evolution of workplace culture</b>
+        </p>
+<div class="second">
+  <img src="pexels-zetong-li-18907092 (1) (1).jpg" alt=" sky bridge" style="width: 250px; height: 200px;">
+</div>
+        <p class="text1">
+          <b>basic recognized with 2020 star awards for technology</b>
+        </p>
+     
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
